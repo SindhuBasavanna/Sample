@@ -8,5 +8,6 @@ public class WithLamda {
 		};
 		d1.draw();
 	}
-
 }
+
+

@@ -6,5 +6,8 @@ public class WithLamda {
 			System.out.println(add1+add2);
 		};
 		addObj.add(10, 15);
+		
+		Addable add = (a,b)-> System.out.println(a+b);
+		add.add(20, 30);
 	}
 }
