@@ -16,6 +16,7 @@ public class App {
 	public static void main(String[] args) throws IOException {
 		//Stream<String> lines = Files.lines(Paths.get("C://sindhu//coding//cognizantAssignmentreference//records.csv"));
 		//System.out.println(lines);
+		//sindhu
 		App app = new App();
 		app.convertCSVRecordToList();
 	}
