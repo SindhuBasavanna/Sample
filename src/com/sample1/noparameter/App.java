@@ -36,7 +36,7 @@ public List<HashMap<String, Object>> convertCSVRecordToList() {
     try {
 
         br = new BufferedReader(new FileReader(csvFile));
-
+//added things
         while ((line = br.readLine()) != null) {
 
             System.out.println(line);
